@@ -24,7 +24,7 @@ This project is a simple **Flask** application that allows you to upload an audi
    - Replace `{YOUR ORG ID}` with your Webex organization ID.
    - Replace `{YOUR TOKEN}` with your Webex API token.
    - Replace `{ID AUDIO TO REPLACE}` with the audio file ID you want to replace.
-   - 
+     
 In WxCC Control Hub, From audio prompt find the audio file to replace
 ![image](https://github.com/user-attachments/assets/9420ed66-92aa-4c23-a4f4-bd6c411471dc)
 
