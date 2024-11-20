@@ -45,7 +45,10 @@ The application will start on `http://localhost:5000/`.
 ![image](https://github.com/user-attachments/assets/26d17682-8762-40f8-a6b5-48bad5b5ae7b)
 
 Use the ngrok application to expose our code on the internet.
-run the ngrok.exe application http 5000.
+run Ngrok
+```
+ngrok.exe http 5000
+```
 
 ![image](https://github.com/user-attachments/assets/d88d52a4-cf9e-4f90-987a-bba7124b08d6)
 
@@ -67,8 +70,3 @@ Now make a call and record an audio, when finished, you will see the result 200 
 
 ![image](https://github.com/user-attachments/assets/ca8fcbe6-1c22-4d9a-8c9b-8dafa4189a85)
 
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
