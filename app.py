@@ -19,10 +19,10 @@ token = "{YOUR TOKEN}"  # YOUR TOKEN
 @app.route('/upload', methods=['POST'])
 def upload_file():
     # Verificar si la solicitud contiene archivos 
-    if 'aviso1.wav' not in request.files:  # avisio1.wax is the name of the existing file to remplace
+    if 'aviso1.wav' not in request.files:  # avisio1.wav is the name of the existing file to remplace
         return jsonify({'error': 'No file part'}), 400
     
-    file = request.files['aviso1.wav']
+    file = request.files['aviso1.wav'] # avisio1.wav is the name of the existing file to remplace
     
     # Verificar si se seleccionó un archivo
     if file.filename == '':
