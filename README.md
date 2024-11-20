@@ -20,10 +20,10 @@ This project is a simple **Flask** application that allows you to upload an audi
    pip install flask requests
    ```
 
-2. **Setup**:
+2. **Place the variables**:
    - Replace `{YOUR ORG ID}` with your Webex organization ID.
    - Replace `{YOUR TOKEN}` with your Webex API token.
-   - Replace `{ID AUDIO TO REMPLACE}` with the audio file ID you want to replace.
+   - Replace `{ID AUDIO TO REPLACE}` with the audio file ID you want to replace.
    - 
 In WxCC Control Hub, From audio prompt find the audio file to replace
 ![image](https://github.com/user-attachments/assets/9420ed66-92aa-4c23-a4f4-bd6c411471dc)
@@ -45,8 +45,8 @@ The application will start on `http://localhost:5000/`.
 ![image](https://github.com/user-attachments/assets/26d17682-8762-40f8-a6b5-48bad5b5ae7b)
 
 Use the ngrok application to expose our code on the internet.
-run the ngrok.exe application http 5000
-5000 is the default port in the python code
+run the ngrok.exe application http 5000.
+
 ![image](https://github.com/user-attachments/assets/d88d52a4-cf9e-4f90-987a-bba7124b08d6)
 
 this generates a temporary, test URL, for our code.
@@ -54,7 +54,7 @@ Now what we have to do is copy it and add the path (`/upload`)
 
 it would look like this: https://f576-187-161-142-159.ngrok-free.app/upload 
 
-Now inte Wxcc Flow , create a Record node and HTTP node to send the record to our code.
+Now in the Wxcc Flow , create a Record node and HTTP node to send the record to our code.
 ![image](https://github.com/user-attachments/assets/158dc002-3870-4120-91d5-c5973ab230f3)
 
 ## TEST
